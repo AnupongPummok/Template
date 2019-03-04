@@ -1,0 +1,21 @@
+body{
+   width:99%;
+   height: 100vh;
+   position: fixed;
+   min-width: 99%;
+}
+
+p{
+    margin:0px;
+  
+}
+
+.flex-alignCenter{
+    display: flex;
+    align-items: center
+}
+
+.font{
+    font-size:18px;
+   
+}

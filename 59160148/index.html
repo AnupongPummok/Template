@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="./public/style/style.css" />
+    <title>หน้าจอสมัครสมาชิก</title>
+  </head>
+  <body style="position:fixed ;">
+    
+    <div style="float : left">
+      <div
+        style="display:flex ; align-items: center ; justify-content:  center" >
+        <img src="public/img/Icon01.png" style="width:100px" />
+        <span>
+          ในขั้นตอนที่ 1 ทำการลงทะเบียน เพื่อรับ
+          <span style="font-weight:bold "> ชื่อผู้ใช้</span> และ
+          <span style="font-weight:bold">รหัสผ่าน</span>
+          <p>ใช้ในการกรอกใบสมัครในขั้นตอนที่ 2</p>
+        </span>
+      </div>
+    </div>
+
+    <div style="border: solid 1px #FFCC99 ; width: 100% ; margin-top: 150px ">
+        <div class="flex-alignCenter" style="background-color:#FFCC99 ; width:99% ; height: 50px ; margin-left:0.5% ; margin-right:0.5% ; font-weight: bold ; font-size:20px " >
+           <p style="margin-left:10px">
+                ข้อมูลทั่วไป [ภาษาไทย]
+           </p>
+        </div>
+
+<form>
+        <div class="font" style=" padding:10px">
+                <div style="text-align: right ; margin-right:20%">
+                    <span style="margin-right:10px ; border-bottom: 1px solid black"> หมายเลขบัตรประจำตัวประชาชน </span>  <span> <input style="width:300px ; height: 35px" maxlength="13"> </span> 
+                </div>  
+                <br>
+              
+                <div style="margin-left:2.6%">
+                     <div>
+                         <span style="margin-right:10px ; border-bottom: 1px solid black"> คำนำหน้าชื่อ </span>  <span> 
+                                                 <select style="height: 41px ; width:250px">
+                                                     <option value="" disabled selected>เลือก..</option>
+                                                     <option value="นาย">นาย</option>
+                                                     <option value="นางสาว">นางสาว</option>
+                                                     <option value="นาง">นาง</option>
+                                                   </select>
+                         </span> 
+             
+                         <span style="margin-right:10px ; border-bottom: 1px solid black ; margin-left:12.9% ; "> ชื่อ </span>  <span> <input style="width:300px ; height: 35px" id="nameThai"> </span> 
+         
+                         <span style="margin-right:10px ; border-bottom: 1px solid black ;  margin-left:10% ;"> นามสกุล </span>  <span> <input style="width:300px ; height: 35px" id="LastThai"> </span> 
+                     </div>
+                </div>
+     
+                <div style="margin-top:10px ;margin-left:5%">
+                     <div>
+                         <span style="margin-right:10px ; border-bottom: 1px solid black ;  "> ชื่อเล่น </span>  <span> <input style="width:300px ; height: 35px"> </span> 
+             
+                         <span style="margin-right:10px ; border-bottom: 1px solid black ; margin-left:5% "> วัน/เดือน/ปี เกิด </span>  <span> <input style="width:300px ; height: 35px"> <img src="./public/img/Icon02.png" style="width:40px; vertical-align:middle"></span> 
+                         
+                     </div>
+                </div>
+     
+                <div style="margin-top:10px ; margin-left:5%">
+                     <div>
+                             <span style="margin-right:10px ; border-bottom: 1px solid black"> จังหวัด </span>  <span> 
+                                                     <select style="height: 41px ; width:120px" >
+                                                         <option value="" disabled selected></option>
+                                                         <option value="นาย">นาย</option>
+                                                         <option value="นางสาว">นางสาว</option>
+                                                         <option value="นาง">นาง</option>
+                                                       </select>
+                             </span> 
+                 
+                             <span style="margin-right:10px ; border-bottom: 1px solid black ;margin-left:17.2% ;"> อำเภอ/เขต </span>  <span> 
+                                     <select style="height: 41px ; width:300px">
+                                         <option value=""></option>
+                                         <option value="นาย">นาย</option>
+                                         <option value="นางสาว">นางสาว</option>
+                                         <option value="นาง">นาง</option>
+                                       </select>
+                             </span> 
+             
+                             <span style="margin-right:10px ; border-bottom: 1px solid black ;margin-left:9.2% ;"> ตำบล/แขวง </span>  <span> 
+                                     <select style="height: 41px ; width:300px">
+                                         <option value=""></option>
+                                         <option value="นาย">นาย</option>
+                                         <option value="นางสาว">นางสาว</option>
+                                         <option value="นาง">นาง</option>
+                                       </select>
+                             </span> 
+                         </div>
+                </div>
+     
+                <div style="margin-top:10px ;margin-left:3.9%">
+                     <div>
+                         <span style="margin-right:10px ; border-bottom: 1px solid black ;  "> บ้านเลขที่ </span>  <span> <input style="width:300px ; height: 35px"> </span> 
+             
+                         <span style="margin-right:10px ; border-bottom: 1px solid black ; margin-left:9.3% "> ถนน </span>  <span> <input style="width:300px ; height: 35px"></span> 
+     
+                         <span style="margin-right:10px ; border-bottom: 1px solid black ; margin-left:8.8% "> รหัสไปรษณี </span>  <span> <input style="width:300px ; height: 35px" maxlength="5"></span> 
+                     
+                     </div>
+                </div>
+     
+     
+                <div style="margin-top:10px ;margin-left:4.2%">
+                     <div>
+                         <span style="margin-right:10px ; border-bottom: 1px solid black ;  "> โทรศัพท์ </span>  <span> <input style="width:300px ; height: 35px" maxlength="9"> </span> 
+             
+                         <span style="margin-right:10px ; border-bottom: 1px solid black ; margin-left:8% "> โทรสาร </span>  <span> <input style="width:300px ; height: 35px" maxlength="9"></span> 
+     
+                         <span style="margin-right:10px ; border-bottom: 1px solid black ; margin-left:5.4% "> เบอร์โทรศัพท์/มือถือ </span>  <span> <input style="width:300px ; height: 35px" maxlength="10" type="tel"></span> 
+                     
+                     </div>
+                </div>
+     
+                <div style="margin-top:10px ;margin-left:5.7%">
+                     <div>
+                         <span style="margin-right:10px ; border-bottom: 1px solid black ;  "> อีเมล </span>  <span> <input style="width:820px ; height: 35px" type="email"> <span style="color:red ;font-weight: bold"> *ใช้ในการรับรหัสผ่าน กรณีลืมรหัสผ่าน </span></span> 
+             
+                         
+                     
+                     </div>
+                </div>
+               
+                <div class="flex-alignCenter" style="background-color:#FFCC99 ; width:100% ; height: 50px ;  font-weight: bold ; font-size:20px ; margin-top:20px" >
+                     <p style="margin-left:10px">
+                          ข้อมูลทั่วไป [ภาษาอังกฤษ]
+                     </p>
+                  </div>
+                        
+                  <div style="margin-left:2.6% ; margin-top:20px">
+                         <div>
+                             <span style="margin-right:10px ; border-bottom: 1px solid black"> Prefix </span>  <span> 
+                                                     <select style="height: 41px ; width:250px">
+                                                         <option value="Mr.">Mr.</option>
+                                                         <option value="Mrs.">Mrs</option>
+                                                       </select>
+                             </span> 
+                 
+                             <span style="margin-right:10px ; border-bottom: 1px solid black ; margin-left:12.9% ; "> First name </span>  <span> <input style="width:300px ; height: 35px"> </span> 
+             
+                             <span style="margin-right:10px ; border-bottom: 1px solid black ;  margin-left:10% ;"> Last name </span>  <span> <input style="width:300px ; height: 35px"> </span> 
+                         </div>
+     
+                        
+                    </div>
+     
+                    <div style="background-color:#EDEDED ; width: 100% ; height:65px ; margin-top : 15px ; border:1px solid #999999 ; display:flex ; align-items: center; width:100% ; justify-content: flex-end ;">
+                   
+                         <div style="padding-right:20px ;">
+                                 <button style="background-color:#CCCCCC ; width :180px ; border:0px ; border-radius: 5px ; height:40px ; margin-right:20px ;font-size: 16px" type="submit"> บันทึก</button>
+                                 <button style="background-color:#CCCCCC ; width :180px ; border:0px ; border-radius: 5px ; height:40px ;font-size: 16px" type="reset"> ยกเลิก</button>
+                         </div>
+                     </div> 
+                          
+                              
+             </div>
+         </div>
+</form>
+      
+
+        
+   
+      
+  </body>
+</html>
